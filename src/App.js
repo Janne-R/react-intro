@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Heading from './components/Heading';
+import FirstParagraph from './components/FirstParagraph';
+import SubHeading from './components/SubHeading';
+import Title from './components/Title';
+import SecondParagraph from './components/SecondParagraph';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div>
+        <Heading />
+        <SubHeading />
+        <FirstParagraph />
+      </div>
+      <div className="card">
+        <div className="card__title">
+          <Title />
+        </div>
+        <SecondParagraph />
+      </div>
     </div>
   );
 }
