@@ -6,16 +6,21 @@
 h1 {
   color: #626262;
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 h2 {
   color: #2daa88;
   font-size: 22px;
+  margin-top: 0;
 }
 
 h3 {
   color: #ffffff;
   font-size: 24px;
+  background: #2daa88;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
 }
 
 p {
@@ -29,10 +34,4 @@ p {
 
 .card p {
   padding: 10px 10px 50px 10px;
-}
-
-.card__title {
-  background: #2daa88;
-  border-radius: 10px 10px 0 0;
-  padding: 10px;
 }

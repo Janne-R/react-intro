@@ -15,9 +15,9 @@ function App() {
         <FirstParagraph />
       </div>
       <div className="card">
-        <div className="card__title">
-          <Title />
-        </div>
+
+        <Title />
+
         <SecondParagraph />
       </div>
     </div>
