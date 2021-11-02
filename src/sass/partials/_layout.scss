@@ -1,0 +1,19 @@
+body {
+  font-family: $font-primary;
+  margin: 0;
+  background: $colour-background;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  background: $colour-white;
+  border-radius: 10px;
+}
+
+.card p {
+  padding: 10px 10px 50px 10px;
+}

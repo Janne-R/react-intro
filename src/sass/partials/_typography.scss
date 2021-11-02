@@ -1,0 +1,23 @@
+h1 {
+  color: $colour-h1;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: $colour-primary;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+h3 {
+  color: $colour-white;
+  font-size: 24px;
+  background: $colour-primary;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+
+p {
+  font-size: 15px;
+}

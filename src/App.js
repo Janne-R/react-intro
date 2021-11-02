@@ -1,5 +1,5 @@
 
-import './App.css';
+import './sass/style.scss';
 import Heading from './components/Heading';
 import FirstParagraph from './components/FirstParagraph';
 import SubHeading from './components/SubHeading';
